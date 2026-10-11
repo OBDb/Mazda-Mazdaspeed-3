@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22091A
+test_cases:
+- expected_values:
+    MS3_ETC_DSD_DEG: 0.73828
+  response: 7E80562091A017A
+- expected_values:
+    MS3_ETC_DSD_DEG: 2.53516
+  response: 7E80562091A0512
+- expected_values:
+    MS3_ETC_DSD_DEG: 8.96289
+  response: 7E80562091A11ED
+- expected_values:
+    MS3_ETC_DSD_DEG: 29.82422
+  response: 7E80562091A3BA6

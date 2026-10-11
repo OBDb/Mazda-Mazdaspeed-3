@@ -1,0 +1,11 @@
+command_id: 733.73B.22D111
+test_cases:
+- expected_values:
+    MS3_CTRL_MODULE_POWER: 13.7
+  response: 73B0462D11189
+- expected_values:
+    MS3_CTRL_MODULE_POWER: 13.8
+  response: 73B0462D1118A
+- expected_values:
+    MS3_CTRL_MODULE_POWER: 13.9
+  response: 73B0462D1118B

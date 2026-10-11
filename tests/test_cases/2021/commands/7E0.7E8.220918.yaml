@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220918
+test_cases:
+- expected_values:
+    MS3_TP2_V: 3.952
+  response: 7E8056209180F70
+- expected_values:
+    MS3_TP2_V: 4.341
+  response: 7E80562091810F5
+- expected_values:
+    MS3_TP2_V: 4.383
+  response: 7E805620918111F

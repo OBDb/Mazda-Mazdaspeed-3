@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2203B9|f=2019-
+test_cases:
+- expected_values:
+    MS3_COOLING_FAN_DUTY: 0
+  response: 7E8056203B90000
+- expected_values:
+    MS3_COOLING_FAN_DUTY: 44.41596
+  response: 7E8056203B938DA
+- expected_values:
+    MS3_COOLING_FAN_DUTY: 53.91928
+  response: 7E8056203B94504

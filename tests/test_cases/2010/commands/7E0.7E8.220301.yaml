@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220301
+test_cases:
+- expected_values:
+    MS3_MAP: 1.13281
+  response: '7E8056203010488'

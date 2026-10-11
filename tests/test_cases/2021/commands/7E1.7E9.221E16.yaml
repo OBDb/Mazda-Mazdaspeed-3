@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.221E16
+test_cases:
+- expected_values:
+    MS3_ACT_GEAR_RAT: 1.34741
+  response: 7E905621E16158F
+- expected_values:
+    MS3_ACT_GEAR_RAT: 3.05273
+  response: 7E905621E1630D8
+- expected_values:
+    MS3_ACT_GEAR_RAT: 3.55273
+  response: 7E905621E1638D8

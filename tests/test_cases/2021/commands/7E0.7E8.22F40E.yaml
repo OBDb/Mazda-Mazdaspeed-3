@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F40E
+test_cases:
+- expected_values:
+    MS3_IGN_ANG_BTDC: -3
+  response: 7E80462F40E7A
+- expected_values:
+    MS3_IGN_ANG_BTDC: 32.5
+  response: 7E80462F40EC1

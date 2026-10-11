@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2203BD
+test_cases:
+- expected_values:
+    MS3_CL_LC: 0.20496
+  response: 7E8056203BD068F
+- expected_values:
+    MS3_CL_LC: 0.37732
+  response: 7E8056203BD0C13
+- expected_values:
+    MS3_CL_LC: 3.9
+  response: 7E8056203BD7FFF
+- expected_values:
+    MS3_CL_LC: -0.19116
+  response: 7E8056203BDF9E2

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F431
+test_cases:
+- expected_values:
+    MS3_DIST_DTC_CLR: 1229
+  response: 7E80562F43104CD
+- expected_values:
+    MS3_DIST_DTC_CLR: 1900
+  response: 7E80562F431076C
+- expected_values:
+    MS3_DIST_DTC_CLR: 1913
+  response: 7E80562F4310779

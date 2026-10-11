@@ -1,0 +1,8 @@
+command_id: 723.72B.22480D
+test_cases:
+- expected_values:
+    MS3_HVBAT_VOLTAGE: 21.49
+  response: 72B0562480D0865
+- expected_values:
+    MS3_HVBAT_VOLTAGE: 22.9
+  response: 72B0562480D08F2

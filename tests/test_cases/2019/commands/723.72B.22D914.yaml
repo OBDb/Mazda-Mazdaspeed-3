@@ -1,0 +1,8 @@
+command_id: 723.72B.22D914
+test_cases:
+- expected_values:
+    MS3_HV_EV_BATT_SOC: 39.6
+  response: 72B0562D914018C
+- expected_values:
+    MS3_HV_EV_BATT_SOC: 46.4
+  response: 72B0562D91401D0

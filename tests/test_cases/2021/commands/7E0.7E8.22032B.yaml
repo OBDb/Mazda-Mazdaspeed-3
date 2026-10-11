@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22032B
+test_cases:
+- expected_values:
+    MS3_ACC_POS: 0
+  response: 7E80462032B00
+- expected_values:
+    MS3_ACC_POS: 0.5
+  response: 7E80462032B01
+- expected_values:
+    MS3_ACC_POS: 9
+  response: 7E80462032B12
+- expected_values:
+    MS3_ACC_POS: 10
+  response: 7E80462032B14
+- expected_values:
+    MS3_ACC_POS: 13.5
+  response: 7E80462032B1B
+- expected_values:
+    MS3_ACC_POS: 14
+  response: 7E80462032B1C
+- expected_values:
+    MS3_ACC_POS: 16.5
+  response: 7E80462032B21
+- expected_values:
+    MS3_ACC_POS: 18
+  response: 7E80462032B24

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22DD01|fc=1,f=2014-
+test_cases:
+- expected_values:
+    MS3_ODO: 96012
+  response: 7E80662DD0101770C
+- expected_values:
+    MS3_ODO: 96255
+  response: 7E80662DD010177FF
+- expected_values:
+    MS3_ODO: 96256
+  response: 7E80662DD01017800
+- expected_values:
+    MS3_ODO: 96544
+  response: 7E80662DD01017920

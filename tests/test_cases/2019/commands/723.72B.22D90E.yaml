@@ -1,0 +1,8 @@
+command_id: 723.72B.22D90E
+test_cases:
+- expected_values:
+    MS3_12V_VOLTAGE: 12.48
+  response: 72B0562D90E04E0
+- expected_values:
+    MS3_12V_VOLTAGE: 13.44
+  response: 72B0562D90E0540

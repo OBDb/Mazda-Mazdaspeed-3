@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22093C
+test_cases:
+- expected_values:
+    MS3_ETC_ACT_DEG: 1.47266
+  response: 7E80562093C02F2
+- expected_values:
+    MS3_ETC_ACT_DEG: 4.52148
+  response: 7E80562093C090B
+- expected_values:
+    MS3_ETC_ACT_DEG: 9.49805
+  response: 7E80562093C12FF
+- expected_values:
+    MS3_ETC_ACT_DEG: 33.07227
+  response: 7E80562093C4225

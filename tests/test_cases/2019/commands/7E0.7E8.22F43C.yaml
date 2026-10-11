@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F43C
+test_cases:
+- expected_values:
+    MS3_CAT_TEMP: 87.3
+  response: 7E80562F43C04F9
+- expected_values:
+    MS3_CAT_TEMP: 420.8
+  response: 7E80562F43C1200
+- expected_values:
+    MS3_CAT_TEMP: 523.1
+  response: 7E80562F43C15FF
+- expected_values:
+    MS3_CAT_TEMP: 732.1
+  response: 7E80562F43C1E29

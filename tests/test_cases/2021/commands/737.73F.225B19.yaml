@@ -1,0 +1,8 @@
+command_id: 737.73F.225B19
+test_cases:
+- expected_values:
+    MS3_SEAT_BUCKLE_DRIVER: 0
+  response: 73F07625B1900000000
+- expected_values:
+    MS3_SEAT_BUCKLE_DRIVER: 1
+  response: 73F07625B1902000000

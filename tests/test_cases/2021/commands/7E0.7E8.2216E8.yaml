@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2216E8
+test_cases:
+- expected_values:
+    MS3_GEN_FC: 26.31266
+  response: 7E8056216E821AE
+- expected_values:
+    MS3_GEN_FC: 30.40513
+  response: 7E8056216E826EB
+- expected_values:
+    MS3_GEN_FC: 31.28099
+  response: 7E8056216E8280A
+- expected_values:
+    MS3_GEN_FC: 54.08713
+  response: 7E8056216E8453B

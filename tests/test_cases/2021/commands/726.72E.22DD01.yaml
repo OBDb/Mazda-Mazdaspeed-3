@@ -1,0 +1,20 @@
+command_id: 726.72E.22DD01
+test_cases:
+- expected_values:
+    MS3_ODO_726: 22928
+  response: 72E0662DD01005990
+- expected_values:
+    MS3_ODO_726: 22968
+  response: 72E0662DD010059B8
+- expected_values:
+    MS3_ODO_726: 23599
+  response: 72E0662DD01005C2F
+- expected_values:
+    MS3_ODO_726: 23612
+  response: 72E0662DD01005C3C
+- expected_values:
+    MS3_ODO_726: 23613
+  response: 72E0662DD01005C3D
+- expected_values:
+    MS3_ODO_726: 23615
+  response: 72E0662DD01005C3F

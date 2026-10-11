@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.220317|f=2014-
+test_cases:
+- expected_values:
+    MS3_VCT_EXH_DUTY: 0
+  response: '7E8056203170000'
+- expected_values:
+    MS3_VCT_EXH_DUTY: 39.52637
+  response: '7E8056203173298'
+- expected_values:
+    MS3_VCT_EXH_DUTY: 39.68811
+  response: 7E80562031732CD
+- expected_values:
+    MS3_VCT_EXH_DUTY: 45.85876
+  response: 7E8056203173AB3
+- expected_values:
+    MS3_VCT_EXH_DUTY: 47.75085
+  response: 7E8056203173D1F
+- expected_values:
+    MS3_VCT_EXH_DUTY: 50.89722
+  response: '7E8056203174126'

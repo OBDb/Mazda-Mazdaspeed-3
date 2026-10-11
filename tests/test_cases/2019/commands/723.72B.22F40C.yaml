@@ -1,0 +1,14 @@
+command_id: 723.72B.22F40C
+test_cases:
+- expected_values:
+    MS3_ENGINE_RPM: 0
+  response: 72B0562F40C0000
+- expected_values:
+    MS3_ENGINE_RPM: 703.75
+  response: 72B0562F40C0AFF
+- expected_values:
+    MS3_ENGINE_RPM: 3288
+  response: 72B0562F40C3360
+- expected_values:
+    MS3_ENGINE_RPM: null
+  response: 72B0562F40CFFFF

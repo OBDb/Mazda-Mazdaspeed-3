@@ -1,0 +1,12 @@
+references:
+  - "https://en.wikipedia.org/wiki/Mazdaspeed3"
+
+generations:
+  - name: "First Generation (BK)"
+    start_year: 2007
+    end_year: 2009
+    description: "The turbocharged 2.3 L DISI MZR hatchback."
+  - name: "Second Generation (BL)"
+    start_year: 2010
+    end_year: 2013
+    description: "The same 2.3 L DISI turbo engine in the second-generation Mazda3 body."
