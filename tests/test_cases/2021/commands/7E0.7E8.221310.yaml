@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221310
+test_cases:
+- expected_values:
+    MS3_EOT: 88.69
+  response: '7E8056213103245'
+- expected_values:
+    MS3_EOT: 90.44
+  response: 7E80562131032F4
+- expected_values:
+    MS3_EOT: 90.66
+  response: 7E805621310330A

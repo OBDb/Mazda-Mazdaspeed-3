@@ -1,0 +1,29 @@
+command_id: 760.768.222B11
+test_cases:
+- expected_values:
+    MS3_LAT_G_760: 6
+  response: 76805622B110006
+- expected_values:
+    MS3_LAT_G_760: 15
+  response: 76805622B11000F
+- expected_values:
+    MS3_LAT_G_760: 17
+  response: 76805622B110011
+- expected_values:
+    MS3_LAT_G_760: 20
+  response: 76805622B110014
+- expected_values:
+    MS3_LAT_G_760: 22
+  response: 76805622B110016
+- expected_values:
+    MS3_LAT_G_760: 23
+  response: 76805622B110017
+- expected_values:
+    MS3_LAT_G_760: 25
+  response: 76805622B110019
+- expected_values:
+    MS3_LAT_G_760: 32
+  response: 76805622B110020
+- expected_values:
+    MS3_LAT_G_760: -21
+  response: 76805622B11FFEB

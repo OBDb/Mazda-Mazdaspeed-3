@@ -1,0 +1,17 @@
+command_id: 723.72B.22F41F
+test_cases:
+- expected_values:
+    MS3_ENGINE_RUN_TIME: 15
+  response: 72B0562F41F000F
+- expected_values:
+    MS3_ENGINE_RUN_TIME: 256
+  response: 72B0562F41F0100
+- expected_values:
+    MS3_ENGINE_RUN_TIME: 1023
+  response: 72B0562F41F03FF
+- expected_values:
+    MS3_ENGINE_RUN_TIME: 5636
+  response: 72B0562F41F1604
+- expected_values:
+    MS3_ENGINE_RUN_TIME: null
+  response: 72B0562F41FFFFF

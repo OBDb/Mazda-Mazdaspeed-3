@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220307
+test_cases:
+- expected_values:
+    MS3_FP_LD: 4.99878
+  response: '7E8056203070666'
+- expected_values:
+    MS3_FP_LD: 45.30334
+  response: 7E80562030739FD
+- expected_values:
+    MS3_FP_LD: 45.3125
+  response: 7E8056203073A00
+- expected_values:
+    MS3_FP_LD: 95.00122
+  response: 7E805620307799A

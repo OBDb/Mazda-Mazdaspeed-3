@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22F449
+test_cases:
+- expected_values:
+    MS3_M3_APP_ECM: 15.68627
+  response: 7E80462F44928
+- expected_values:
+    MS3_M3_APP_ECM: 16.47059
+  response: 7E80462F4492A
+- expected_values:
+    MS3_M3_APP_ECM: 17.64706
+  response: 7E80462F4492D
+- expected_values:
+    MS3_M3_APP_ECM: 23.92157
+  response: 7E80462F4493D
+- expected_values:
+    MS3_M3_APP_ECM: 24.31373
+  response: 7E80462F4493E
+- expected_values:
+    MS3_M3_APP_ECM: 27.05882
+  response: 7E80462F44945
+- expected_values:
+    MS3_M3_APP_ECM: 28.62745
+  response: 7E80462F44949
+- expected_values:
+    MS3_M3_APP_ECM: 30.98039
+  response: 7E80462F4494F

@@ -1,0 +1,17 @@
+command_id: 723.72B.22DD01
+test_cases:
+- expected_values:
+    MS3_ODO_723: 96012
+  response: 72B0662DD0101770C
+- expected_values:
+    MS3_ODO_723: 96255
+  response: 72B0662DD010177FF
+- expected_values:
+    MS3_ODO_723: 96256
+  response: 72B0662DD01017800
+- expected_values:
+    MS3_ODO_723: 96544
+  response: 72B0662DD01017920
+- expected_values:
+    MS3_ODO_723: null
+  response: 72B0662DD01FFFFFF

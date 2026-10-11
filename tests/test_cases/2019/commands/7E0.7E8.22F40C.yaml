@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F40C
+test_cases:
+- expected_values:
+    MS3_RPM: 0
+  response: 7E80562F40C0000
+- expected_values:
+    MS3_RPM: 703.75
+  response: 7E80562F40C0AFF
+- expected_values:
+    MS3_RPM: 5441.25
+  response: 7E80562F40C5505

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.229800|f=2014-
+test_cases:
+- expected_values:
+    MS3_AC_P_SENS_V: 1.27441
+  response: '7E8056298000519'
+- expected_values:
+    MS3_AC_P_SENS_V: 1.49414
+  response: 7E80562980005FA
+- expected_values:
+    MS3_AC_P_SENS_V: 2.00684
+  response: '7E8056298000807'

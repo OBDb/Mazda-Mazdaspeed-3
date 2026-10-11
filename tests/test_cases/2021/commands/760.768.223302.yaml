@@ -1,0 +1,14 @@
+command_id: 760.768.223302
+test_cases:
+- expected_values:
+    MS3_STEER_ANG_ACT: 777.8
+  response: '768056233021E62'
+- expected_values:
+    MS3_STEER_ANG_ACT: 778.3
+  response: '768056233021E67'
+- expected_values:
+    MS3_STEER_ANG_ACT: 779.7
+  response: '768056233021E75'
+- expected_values:
+    MS3_STEER_ANG_ACT: 783.2
+  response: '768056233021E98'

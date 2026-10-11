@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F423
+test_cases:
+- expected_values:
+    MS3_FUEL_P: 92600
+  response: 7E80562F423039E
+- expected_values:
+    MS3_FUEL_P: 100800
+  response: 7E80562F42303F0
+- expected_values:
+    MS3_FUEL_P: 155100
+  response: 7E80562F423060F
+- expected_values:
+    MS3_FUEL_P: 198700
+  response: 7E80562F42307C3

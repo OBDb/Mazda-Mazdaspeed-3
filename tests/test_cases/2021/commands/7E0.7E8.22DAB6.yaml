@@ -1,0 +1,9 @@
+command_id: 7E0.7E8.22DAB6
+test_cases:
+- expected_values:
+    MS3_MIS_AVG_1: 9280
+    MS3_MIS_AVG_2: 18
+    MS3_MIS_AVG_3: 8222
+  response: |-
+    7E8100A62DAB6244000
+    7E82112201E44000000

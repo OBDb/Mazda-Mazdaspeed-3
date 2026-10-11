@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2203E8|f=2014-
+test_cases:
+- expected_values:
+    MS3_OAR: 0.00165
+  response: 7E8056203E8001B
+- expected_values:
+    MS3_OAR: 0.01556
+  response: 7E8056203E800FF
+- expected_values:
+    MS3_OAR: 0.09375
+  response: 7E8056203E80600
+- expected_values:
+    MS3_OAR: 0
+  response: 7E8056203E8FF13

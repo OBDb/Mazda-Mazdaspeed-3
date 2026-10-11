@@ -1,0 +1,5 @@
+command_id: 726.72E.22DD06
+test_cases:
+- expected_values:
+    MS3_POWER_MODE: -190
+  response: 72E0462DD0602

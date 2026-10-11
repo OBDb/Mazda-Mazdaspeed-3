@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22F434
+test_cases:
+- expected_values:
+    MS3_AIR_FUEL_RAT: 14.23151
+  response: 7E80762F4347C6D7FDD
+- expected_values:
+    MS3_AIR_FUEL_RAT: 14.54649
+  response: 7E80762F4347F2E8000
+- expected_values:
+    MS3_AIR_FUEL_RAT: 14.59385
+  response: 7E80762F4347F987FF9
+- expected_values:
+    MS3_AIR_FUEL_RAT: 14.75737
+  response: 7E80762F43481068008
+- expected_values:
+    MS3_AIR_FUEL_RAT: 29.2801
+  response: 7E80762F434FFFF8313

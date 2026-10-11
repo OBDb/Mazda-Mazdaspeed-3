@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221279
+test_cases:
+- expected_values:
+    MS3_IAT_SENS_V: 1.14858
+  response: 7E80562127900EB
+- expected_values:
+    MS3_IAT_SENS_V: 1.24145
+  response: 7E80562127900FE
+- expected_values:
+    MS3_IAT_SENS_V: 1.25611
+  response: '7E8056212790101'

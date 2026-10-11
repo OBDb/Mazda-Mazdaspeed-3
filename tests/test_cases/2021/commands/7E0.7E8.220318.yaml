@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220318
+test_cases:
+- expected_values:
+    MS3_VCT_INT_ACT: 0.125
+  response: '7E8056203180002'
+- expected_values:
+    MS3_VCT_INT_ACT: 14.375
+  response: 7E80562031800E6
+- expected_values:
+    MS3_VCT_INT_ACT: 33.5625
+  response: '7E8056203180219'

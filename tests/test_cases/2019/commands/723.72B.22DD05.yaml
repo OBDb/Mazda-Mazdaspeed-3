@@ -1,0 +1,11 @@
+command_id: 723.72B.22DD05
+test_cases:
+- expected_values:
+    MS3_AAT: 26
+  response: 72B0462DD0542
+- expected_values:
+    MS3_AAT: 39
+  response: 72B0462DD054F
+- expected_values:
+    MS3_AAT: null
+  response: 72B0462DD05FF

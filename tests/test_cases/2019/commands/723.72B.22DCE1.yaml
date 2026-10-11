@@ -1,0 +1,14 @@
+command_id: 723.72B.22DCE1
+test_cases:
+- expected_values:
+    MS3_IG_ON_TIMER: 0.28333
+  response: 72B0562DCE10011
+- expected_values:
+    MS3_IG_ON_TIMER: 4.25
+  response: 72B0562DCE100FF
+- expected_values:
+    MS3_IG_ON_TIMER: 8.53333
+  response: 72B0562DCE10200
+- expected_values:
+    MS3_IG_ON_TIMER: 93.91667
+  response: 72B0562DCE11603

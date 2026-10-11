@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F42F
+test_cases:
+- expected_values:
+    MS3_FLI: 37.64706
+  response: 7E80462F42F60
+- expected_values:
+    MS3_FLI: 66.66667
+  response: 7E80462F42FAA
+- expected_values:
+    MS3_FLI: 96.07843
+  response: 7E80462F42FF5

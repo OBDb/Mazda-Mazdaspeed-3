@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F41F
+test_cases:
+- expected_values:
+    MS3_RUN_TIME: 457
+  response: 7E80562F41F01C9
+- expected_values:
+    MS3_RUN_TIME: 518
+  response: 7E80562F41F0206
+- expected_values:
+    MS3_RUN_TIME: 1023
+  response: 7E80562F41F03FF
+- expected_values:
+    MS3_RUN_TIME: 2207
+  response: 7E80562F41F089F

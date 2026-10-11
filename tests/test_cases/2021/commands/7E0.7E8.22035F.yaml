@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22035F
+test_cases:
+- expected_values:
+    MS3_RO2_V: 0.02246
+  response: 7E80562035F0017
+- expected_values:
+    MS3_RO2_V: 0.73828
+  response: 7E80562035F02F4
+- expected_values:
+    MS3_RO2_V: 0.7666
+  response: 7E80562035F0311

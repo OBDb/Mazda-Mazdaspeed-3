@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220415|f=2014-
+test_cases:
+- expected_values:
+    MS3_EOP: 131
+  response: '7E8056204150083'
+- expected_values:
+    MS3_EOP: 153
+  response: '7E8056204150099'

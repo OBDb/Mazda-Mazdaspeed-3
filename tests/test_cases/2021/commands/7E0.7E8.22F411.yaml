@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F411
+test_cases:
+- expected_values:
+    MS3_INT_SHUTTER_VLV_POS: 11.37255
+  response: 7E80462F4111D
+- expected_values:
+    MS3_INT_SHUTTER_VLV_POS: 35.68627
+  response: 7E80462F4115B

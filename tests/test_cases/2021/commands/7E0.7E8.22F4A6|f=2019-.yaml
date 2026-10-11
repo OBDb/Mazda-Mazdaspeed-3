@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F4A6|f=2019-
+test_cases:
+- expected_values:
+    MS3_PCM_VEH_ODO: 22928
+  response: 7E80762F4A600037FA0
+- expected_values:
+    MS3_PCM_VEH_ODO: 23598.9
+  response: 7E80762F4A6000399D5
+- expected_values:
+    MS3_PCM_VEH_ODO: 23612
+  response: 7E80762F4A600039A58

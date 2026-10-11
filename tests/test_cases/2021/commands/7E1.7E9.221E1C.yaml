@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.221E1C
+test_cases:
+- expected_values:
+    MS3_TRANS_T_V6: 85.625
+  response: 7E905621E1C055A
+- expected_values:
+    MS3_TRANS_T_V6: 86.6875
+  response: 7E905621E1C056B
+- expected_values:
+    MS3_TRANS_T_V6: 88.875
+  response: 7E905621E1C058E
