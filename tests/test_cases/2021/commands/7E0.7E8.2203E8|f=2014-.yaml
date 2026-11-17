@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.2203E8|f=2014-
 test_cases:
 - expected_values:
-    MS3_OAR: 0
+    MS3_OAR: -0.5213
   response: 7E8056203E8DEA3
 - expected_values:
-    MS3_OAR: 0
+    MS3_OAR: -0.3363
   response: 7E8056203E8EA7A
 - expected_values:
-    MS3_OAR: 0
+    MS3_OAR: -0.24512
   response: 7E8056203E8F050

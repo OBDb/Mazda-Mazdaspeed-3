@@ -10,5 +10,5 @@ test_cases:
     MS3_OAR: 0.09375
   response: 7E8056203E80600
 - expected_values:
-    MS3_OAR: 0
+    MS3_OAR: -0.01447
   response: 7E8056203E8FF13
