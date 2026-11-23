@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.220918
 test_cases:
 - expected_values:
+    MS3_TP2_V: 4.43
+  response: 7E805620918114E
+- expected_values:
     MS3_TP2_V: 4.435
   response: '7E8056209181153'
 - expected_values:
@@ -15,3 +18,15 @@ test_cases:
 - expected_values:
     MS3_TP2_V: 4.46
   response: 7E805620918116C
+- expected_values:
+    MS3_TP2_V: 4.49
+  response: 7E805620918118A
+- expected_values:
+    MS3_TP2_V: 4.495
+  response: 7E805620918118F
+- expected_values:
+    MS3_TP2_V: 4.5
+  response: '7E8056209181194'
+- expected_values:
+    MS3_TP2_V: 4.505
+  response: '7E8056209181199'

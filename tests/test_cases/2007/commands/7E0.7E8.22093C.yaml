@@ -1,20 +1,14 @@
 command_id: 7E0.7E8.22093C
 test_cases:
 - expected_values:
-    MS3_ETC_ACT_DEG: 8.41602
-  response: 7E80562093C10D5
+    MS3_ETC_ACT_DEG: 7.38086
+  response: 7E80562093C0EC3
+- expected_values:
+    MS3_ETC_ACT_DEG: 7.48438
+  response: 7E80562093C0EF8
 - expected_values:
     MS3_ETC_ACT_DEG: 8.51953
   response: 7E80562093C110A
 - expected_values:
-    MS3_ETC_ACT_DEG: 8.62305
-  response: 7E80562093C113F
-- expected_values:
-    MS3_ETC_ACT_DEG: 8.72656
-  response: 7E80562093C1174
-- expected_values:
-    MS3_ETC_ACT_DEG: 8.83008
-  response: 7E80562093C11A9
-- expected_values:
-    MS3_ETC_ACT_DEG: 8.93359
-  response: 7E80562093C11DE
+    MS3_ETC_ACT_DEG: 13.17969
+  response: 7E80562093C1A5C

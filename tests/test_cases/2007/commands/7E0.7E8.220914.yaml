@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MS3_APP1_V: 0.415
   response: 7E805620914019F
+- expected_values:
+    MS3_APP1_V: 0.59
+  response: 7E805620914024E
