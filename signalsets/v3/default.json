@@ -1,4 +1,8 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E0", "type": "engine" },
+    { "hdr": "7E1", "type": "transmission" }
+  ],
+  "commands": [
 { "hdr": "720", "rax": "728", "cmd": {"22": "61A5"}, "freq": 10, "dbgfilter": { "to": 2009, "from": 2011 },
   "signals": [
     {"id": "MS3_TPMS_WARN", "path": "Tires", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "Tire pressure warning"}
@@ -47,35 +51,35 @@
   "signals": [
     {"id": "MS3_ENGINE_RUN_TIME", "path": "Engine", "fmt": { "len": 16, "max": 65535, "nullmax": 65535, "unit": "seconds" }, "name": "Engine run time"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "D922"}, "freq": 1, "filter": { "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "D922"}, "freq": 1, "filter": { "from": 2019 }, "dbgfilter": { "to": 2020 },
   "signals": [
     {"id": "MS3_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "nullmax": 50.8, "unit": "psi" }, "name": "Front left pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "D923"}, "freq": 1, "filter": { "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "D923"}, "freq": 1, "filter": { "from": 2019 }, "dbgfilter": { "to": 2020 },
   "signals": [
     {"id": "MS3_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "nullmax": 50.8, "unit": "psi" }, "name": "Front right pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "D924"}, "freq": 1, "filter": { "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "D924"}, "freq": 1, "filter": { "from": 2019 }, "dbgfilter": { "to": 2020 },
   "signals": [
     {"id": "MS3_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "nullmax": 50.8, "unit": "psi" }, "name": "Rear left pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "D925"}, "freq": 1, "filter": { "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "D925"}, "freq": 1, "filter": { "from": 2019 }, "dbgfilter": { "to": 2020 },
   "signals": [
     {"id": "MS3_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "nullmax": 50.8, "unit": "psi" }, "name": "Rear right pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "D926"}, "freq": 1, "filter": { "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "D926"}, "freq": 1, "filter": { "from": 2019 }, "dbgfilter": { "to": 2020 },
   "signals": [
     {"id": "MS3_TT_FL", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "nullmax": 204, "unit": "celsius" }, "name": "Front left temperature", "suggestedMetric": "frontLeftTireTemperature"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "D927"}, "freq": 1, "filter": { "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "D927"}, "freq": 1, "filter": { "from": 2019 }, "dbgfilter": { "to": 2020 },
   "signals": [
     {"id": "MS3_TT_FR", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "nullmax": 204, "unit": "celsius" }, "name": "Front right temperature", "suggestedMetric": "frontRightTireTemperature"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "D928"}, "freq": 1, "filter": { "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "D928"}, "freq": 1, "filter": { "from": 2019 }, "dbgfilter": { "to": 2020 },
   "signals": [
     {"id": "MS3_TT_RL", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "nullmax": 204, "unit": "celsius" }, "name": "Rear left temperature", "suggestedMetric": "rearLeftTireTemperature"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "D929"}, "freq": 1, "filter": { "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "D929"}, "freq": 1, "filter": { "from": 2019 }, "dbgfilter": { "to": 2020 },
   "signals": [
     {"id": "MS3_TT_RR", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "nullmax": 204, "unit": "celsius" }, "name": "Rear right temperature", "suggestedMetric": "rearRightTireTemperature"}
   ]},
@@ -151,7 +155,7 @@
   "signals": [
     {"id": "MS3_STEER_ANG_ACT", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "unknown" }, "name": "Steering angle, actual value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0202"}, "freq": 3600, "dbgfilter": { "to": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0202"}, "freq": 3600, "dbgfilter": { "years": [2008, 2009, 2010, 2011, 2012] },
   "signals": [
     {"id": "MS3_DTC_CNTD", "path": "DTCs", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of DTCs", "suggestedMetric": "storedDTCCount"}
   ]},
@@ -265,27 +269,27 @@
   "signals": [
     {"id": "MS3_GRILL_SHUT_DC", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Grill shutter duty cycle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0914"}, "freq": 1, "dbgfilter": { "to": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0914"}, "freq": 1, "dbgfilter": { "years": [2008, 2009, 2010, 2011, 2012] },
   "signals": [
     {"id": "MS3_APP1_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "APP sensor 1 voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0915"}, "freq": 1, "dbgfilter": { "to": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0915"}, "freq": 1, "dbgfilter": { "years": [2008, 2009, 2010, 2011, 2012] },
   "signals": [
     {"id": "MS3_APP2_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "APP sensor 2 voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0917"}, "freq": 1, "dbgfilter": { "to": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0917"}, "freq": 1, "dbgfilter": { "years": [2008, 2009, 2010, 2011, 2012] },
   "signals": [
     {"id": "MS3_TP1_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Throttle position 1 voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0918"}, "freq": 1, "dbgfilter": { "to": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0918"}, "freq": 1, "dbgfilter": { "years": [2008, 2009, 2010, 2011, 2012] },
   "signals": [
     {"id": "MS3_TP2_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Throttle position 2 voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "091A"}, "freq": 0.25, "dbgfilter": { "to": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "091A"}, "freq": 0.25, "dbgfilter": { "years": [2008, 2009, 2010, 2011, 2012] },
   "signals": [
     {"id": "MS3_ETC_DSD_DEG", "path": "Engine", "fmt": { "len": 16, "max": 127.9, "div": 512, "unit": "degrees" }, "name": "Throttle control desired"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "093C"}, "freq": 0.25, "dbgfilter": { "to": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "093C"}, "freq": 0.25, "dbgfilter": { "years": [2008, 2009, 2010, 2011, 2012] },
   "signals": [
     {"id": "MS3_ETC_ACT_DEG", "path": "Engine", "fmt": { "len": 16, "max": 127.9, "div": 512, "unit": "degrees" }, "name": "Throttle position actual"}
   ]},
@@ -305,11 +309,11 @@
   "signals": [
     {"id": "MS3_EOT", "path": "Engine", "fmt": { "len": 16, "max": 615.35, "min": -40, "div": 100, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16E8"}, "freq": 1, "dbgfilter": { "to": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16E8"}, "freq": 1, "dbgfilter": { "years": [2008, 2009, 2010, 2011, 2012] },
   "signals": [
     {"id": "MS3_GEN_FC", "path": "Engine", "fmt": { "len": 16, "max": 200, "mul": 200, "div": 65535, "unit": "percent" }, "name": "Generator field coil control duty"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16E9"}, "freq": 5, "dbgfilter": { "to": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16E9"}, "freq": 5, "dbgfilter": { "years": [2008, 2009, 2010, 2011, 2012] },
   "signals": [
     {"id": "MS3_GEN_V", "path": "Engine", "fmt": { "len": 16, "max": 8191.875, "div": 8, "unit": "volts" }, "name": "Generator output voltage"}
   ]},
