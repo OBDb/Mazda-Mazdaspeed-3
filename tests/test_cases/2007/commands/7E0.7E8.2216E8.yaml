@@ -1,32 +1,14 @@
 command_id: 7E0.7E8.2216E8
 test_cases:
 - expected_values:
-    MS3_GEN_FC: 43.62554
-  response: 7E8056216E837D7
+    MS3_GEN_FC: 38.82811
+  response: 7E8056216E831B3
 - expected_values:
-    MS3_GEN_FC: 43.99176
-  response: 7E8056216E8384F
-- expected_values:
-    MS3_GEN_FC: 44.2359
-  response: 7E8056216E8389F
-- expected_values:
-    MS3_GEN_FC: 45.5024
-  response: 7E8056216E83A3E
-- expected_values:
-    MS3_GEN_FC: 46.27451
-  response: 7E8056216E83B3B
-- expected_values:
-    MS3_GEN_FC: 47.15343
-  response: 7E8056216E83C5B
-- expected_values:
-    MS3_GEN_FC: 47.21141
-  response: 7E8056216E83C6E
+    MS3_GEN_FC: 46.90318
+  response: 7E8056216E83C09
 - expected_values:
     MS3_GEN_FC: 47.65087
   response: 7E8056216E83CFE
 - expected_values:
-    MS3_GEN_FC: 48.68238
-  response: 7E8056216E83E50
-- expected_values:
-    MS3_GEN_FC: 48.80446
-  response: 7E8056216E83E78
+    MS3_GEN_FC: 54.47471
+  response: 7E8056216E845BA

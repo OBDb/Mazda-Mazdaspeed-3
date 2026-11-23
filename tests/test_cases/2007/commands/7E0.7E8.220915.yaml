@@ -1,5 +1,17 @@
 command_id: 7E0.7E8.220915
 test_cases:
 - expected_values:
+    MS3_APP2_V: 0.413
+  response: 7E805620915019D
+- expected_values:
+    MS3_APP2_V: 0.414
+  response: 7E805620915019E
+- expected_values:
     MS3_APP2_V: 0.415
   response: 7E805620915019F
+- expected_values:
+    MS3_APP2_V: 0.423
+  response: 7E80562091501A7
+- expected_values:
+    MS3_APP2_V: 0.439
+  response: 7E80562091501B7
