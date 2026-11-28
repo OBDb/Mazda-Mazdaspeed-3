@@ -62,6 +62,7 @@ supported_commands_by_ecu:
   - 7E0.0142:VPWR
   - 7E0.0143:LOAD_ABS
   - 7E0.0144:EQ_RAT
+  - 7E0.0146:AAT
   - 7E0.0147:TP_B
   - 7E0.014C:TAC_PCT
   - 7E0.7E8.220202:MS3_DTC_CNTD
